@@ -61,12 +61,15 @@ function AppContent() {
   );
 }
 
+import { BrowserRouter as Router } from 'react-router-dom';
+
 function App() {
   return (
-    <Router>
-      <AppContent />
+    <Router basename="/Partsgo-project-inventory">  {/* เพิ่ม basename นี้ */}
+      <div className="light-mode">
+        <AppContent />
+      </div>
     </Router>
   );
 }
-
 export default App;
