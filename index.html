@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ระบบขอสั่งอะไหล่คลังสินค้านวนคร</title>
-    <link rel="manifest" href="/manifest.json">  <!-- Vite จะปรับ path หลัง build -->
-    <meta name="theme-color" content="#1877f2">
+
+    <!-- แก้ Warning (ลบอันเก่าออก ใช้แค่ 2 อันนี้) -->
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" href="/icon-192.png">
+
+    <!-- PWA -->
+    <meta name="theme-color" content="#1877f2">
     <link rel="manifest" href="/Partsgo-project-inventory/manifest.json">
-<link rel="apple-touch-icon" href="/Partsgo-project-inventory/icon-192.png">
+    <link rel="icon" href="/Partsgo-project-inventory/icon-192.png">
+    <link rel="apple-touch-icon" href="/Partsgo-project-inventory/icon-192.png">
   </head>
   <body class="light-mode">
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>  <!-- Vite build จะแปลงเป็น .js -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
