@@ -3,8 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Partsgo-project-inventory/',  // ชื่อ repo ของคุณ – สำคัญมาก!
-  build: {
-    outDir: 'dist'  // ไฟล์ build จะไปที่ dist
-  }
+  base: '/Partsgo-project-inventory/',   // ต้องมีท้ายด้วย slash
 })
